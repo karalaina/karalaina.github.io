@@ -1,0 +1,32 @@
+h2{
+	color: black;
+	text-decoration: underline;
+}
+
+body{
+	background-color: #404040;
+	color: white;
+	font-family: arial;
+	text-align: center;
+}
+	
+a{
+	color: white;
+	text-decoration: none;
+}
+	
+a:hover{
+	color: darkred;
+}
+
+.linkicon{
+	font-size: 300%;
+}
+
+.icon{
+	font-size: 300%;
+}
+
+.icon:hover{
+	color: white;
+}
