@@ -3,25 +3,9 @@
 <head>
 	<meta charset = "utf8"/>
 	<title>Kara Campbell</title>
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 	<script src="https://use.fontawesome.com/d05c8ffede.js"></script>
-	<style>
-	h2{
-		color: black;
-		text-decoration: underline;
-	}
-	body{
-		background-color: #404040;
-		color: white;
-		font-family: arial;
-		text-align: center;
-	}
-	a{
-		color: white;
-	}
-	.linkicon{
-		font-size: 300%;
-	}
-</style>
+	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
 	<h1>Kara Campbell</h1>
@@ -54,15 +38,19 @@
 	<div id="skills"> 
 		<h2>Skills</h2>
 		<h3>Programming Languages</h3>
-		<a href="" title="Python"><img class="icon icons8-Python" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAADR0lEQVRoQ+2aj5FMQRDGv4sAEXARIAJEwEWACBABGSACRHBEgAgQASJABNRva3qq53lrX0/PebtXN1V7+7Zu/vQ3/e+bnnekc9aOzhkejQR0TdJ1STck8cyH5p8/S/op6YMknj+W38P2dQSg+5IeFyBRwQD3QtLLUcCygF5JehBFMdMfbZ1I+padKwMIIAAa1QB1MztZBtBbSXedAN/L89WEUE+KCXZPkQH0Q9LlsvJDSa/Lc0ZzBInb3WikVJT7XRb+MhMQ8IUeTREkrqwNaM72v7qwHZUvYzVDNITAo0yOufYCEIJYyLWEGtWM9d8bQL0ApuMuAPkdSe1GUCUWFXcNM5m29Sf/vZHE91/tEAEZCPIewahpc4BIljCAe44579rVkf/fpSG/FqQWYlzbFBBZGn6WjVQZgBFArHPsSa0HhEZOM5IMGhsFhD9Vxm+DMTOyu3GzQbJ1TRMF1NAlG4yDcVBbu8HYzdyXRkVkvlNOwZVmeOa8Jqh3JRhhKci0tNVjBxoiELxfOvKM+xknjPpz9SMAEfaen7GgS6Y37dA36gL1HAWg6OAlwkX7IBBawcF7LKYGBgBRUroVlWBAfwIAZykojJ12M9F2E+D486mzBGWYsF9KUQiXadTz8OXe1FEBRcKjF5gdxkyyQIxmZcphjQ/1APpV8gW2SyOHrcX9WL8BhFCXgrZiiQzzgC6lKjXBtee6N2E7GhQ8d8Lm1wYDwCaxRsM2JVsiU6b+NkApzRQN9Xkm6WlgBepmmOm0chqYYmhX/LlGxh7qY4Q2U3sbiag55JlwkcAQpfcjhZ/ONY22lW1H/GifAFXfMaQmXIQ/7QOgrUndH8GhL48W2MdagDz3IyBZUm9EnhZJlpheFND/LJXNFsahMOQYf5nld+HgAC2wuk2XHg64ZO6URjODLwBN1LPtTjazyanLpYyG/nVBdnCAfO3NlObvZA8O0K472dUARc9R3oW2mdyc9pZExtonsxvZet7cnayvzYWATLlc1+BSIOENrFHNa65rzoyGWJDCOrxqBKjmWqQLTfadgLIop0VOvdClaLGFKXgTBWJsxcZeLJtxWQ35xQHGMYSCId/8Ns3h7OYzfPMh2vFJv1LmhfgDThapNWEKdjcAAAAASUVORK5CYII=" width="52" height="52"></a>
-		<a href="" title="Java"><img class="icon icons8-Java-Coffee-Cup-Logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAEXElEQVRoQ9WZjbFMQRCFz4sAESACRIAIEAEiQASIABEgAkSACBABIkAE1Fd1j+rXO/fO3Lmz7+1O1a23b3d2pk93n/7bE539uiLpx+hrT0Yf2HDeY0lvJP1u2Nu85TyAvJwswt9h6zyAfJH0U9LdYSgknTUQ3OqFpA/HDOS6pI+SLkp6LunZMVokgkD+e5LeHxuQDAJ+EIKHrn1zBEK/ntzJgtes0ZVn9gnkaYEHryRBeC+EviPpliQs97aXO/sAApmJTA+S78RIheAA5S/r27T/a6+/jQYCCCIT2o0LQS30u/CaPdlKXVhGAqmBwI0cfi3sw6lc6RI+fmkkEIS01n1HtES01J9pb7crZeSjgMAHolPJnSgOndGHW8IHjgJC/RR5gcb53+X6J0k3A7Ezhw7GtdD6hSDNE0mxuv0bPvtccMGDARI1jlCXUr8RgZQ+PxggFIDkhTmXhdTXwucHWzQSeuGD3etqameJZkQtL1yRPcO6xFFkR0DqKpIdi1IjZ3aqXcoRr6FWGQkEASH4o0nSzJNsNdztxmZyTAeMBsKxDBbuzzRPOd8Mu3/YQUmzgMGN0Hgc/WCVX9Peoe3uvoAgK5GM+ipyJZL+tiTC9pC1FggaJYwiEK/J0GRxiMyToxABAIu4psJSvOfZVgkE4OGZsz/fJTAsRrhWIBxOjxFHOABYEigLiWVQAJZamjSyx5Z0WcN+3HQWTCuQXEshJIcilLUNsFzN2oIRlC3JewjMQ04BaHa1GLJz2XNKUa1AYlgd4tPhEGovLF3SduRUKTf9P6YViBMeF3L45U40thquwoMFlgi/FyBZdhMeV8njnSycBV+LP3rCYiWwxiLZzz1gqI131grv/Sjo+xQdc3+zc2YvkEh+tI3mIDqtbcnXsRjuSEjltaMfPfuca1G3eV+1LusFkhupXq27pAFQXLTNTqRNA4peIJidHMJlPcRnbIoFS4nUIIhm3NE0oOgFErXnXOAJCu4DUC8EwYI8vF4ivn8EAuCqn+e2AkFoOkN8ueUsALonIS8MWy2Xz12GJSC9tY8GqaVYaD9axWVHDNOQnGzd5Do1xC1AHHEQDAGd1LAGQLYsuMI5m1veJSDRbSysQaBN/NlFYBws1IAhvEleK+OxsEP74rlzQBCQOB7dY6loy4TPl5rgJn4NLJ+7CWtqwOaA5PEOB1NGD/HnBhQoBkXiFZuA5PGNCYyZiTarQmOD4N5CRCMCOhk2D7uXOMKB+GgchfpCd31YyO5S6kdKGBw8+Cx2mnmSX0qILlB3PKMWtfgi2uFZQ+gVRji11YEABWZhcTOyPlzdCRI1IPEWNMlhPM4LPeWJz3SBicAI5qyflcC9JF2UOdtcrQEyp+XYusY9AC4Fh1rIdcQyX5oq4B4g9lM0xYxqrnRf415xOoO1I1+wAq62qIAeIFFAzG1X8+CtNVfMFZmcj3IQvrl43Aoka92/l9vdnFA91on7IXb8RcvVcYvr7Vj7H3ZYAELaShw4AAAAAElFTkSuQmCC" width="50" height="50"></a>
-		<a href="" title="JavaScript"><img class="icon icons8-JS-Filled" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABo0lEQVRoQ+2a7TEFMRSGn1sBOqACdKAEHaACVIAKUAEl6AAVuDqgAlTAvCZhJ3d2JpPNx97Mycz+y8d53yfZ7DmzCzppi0500K2QY+Aa2Jw5qU/gHLj3cYZEPtZAhI9dYrbGhHzPnEQY3h+IkIgJaUTSiDQyfnRZI2JECjlgW6uQscnTGpFk6woNNCKFjE2ethmRL2AjOezVgcWFXAGX7rkAXoFD4M3FcgOcZhBUXciOE3EEKCGS0N11E3IA+OcxQ/DDKaoSEQURUR3gKROJlQy3VIYYnpGTQaFAZ0fnJkerSsQHfQbcuuhV/RCpqa2JEAUtAaKjM5PjvDQTontEZ2UPeJmKA/4LjLnPyLtzXfeEXrMPwDagwp/uERHRXaJtpkLg1FaMyLPbNgpQwd8BS2B/ELEuQgnN0YoJUXB6xWrrhGVXEcpdii0qJIfTsXOYkFinavUzIrWcjl3HiMQ6VaufEanldOw6RiTWqVr9jEgtp2PX6Z+IPrVzVgJjnU3p57PN37FhhqhkSEnP3MVIhLLM0V84UpyZxZhu/w6ahbspQfwAVdZgM2iz60UAAAAASUVORK5CYII=" width="50" height="50"></a>
+		<a class="icon" href="" title="python"><i class="devicon-python-plain"></i></a>
+		<a class="icon" href="" title="java"><i class="devicon-java-plain-wordmark"></i></i></a>
+		<a class="icon" href="" title="javascript"><i class="devicon-javascript-plain"></i></a>
+		<a class="icon" href="" title="C"><i class="devicon-c-plain"></i></a>
+		<br>
+		<br>
+		<a class="icon" href="" title="jquery"><i class="devicon-jquery-plain-wordmark"></i></a>
+		<a class="icon" href="" title="nodejs"><i class="devicon-nodejs-plain"></i></a>
 	</div>
 	<hr>
 	<div id="volunteer">
 		<h2>Volunteering</h2>
 		<h3>Ottawa Humane Society</h3>
-		<img src="http://www.carlinganimalhospital.com/images/OHS.png" width="75"></a>
 		<p>Foster Volunteer</p>
 		<p>July 2014 - Present</p>
 	</div>
