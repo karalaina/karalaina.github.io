@@ -17,6 +17,10 @@ a{
 #school, .worktext{
 	line-height: 80%;
 }
+
+#poster{
+	width: 80%;
+}
 	
 a:hover{
 	color: #b30000;
