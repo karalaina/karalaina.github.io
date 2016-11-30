@@ -4,10 +4,19 @@ h2{
 }
 
 body{
-	background-color: #404040;
+	background-color: #505050;
 	color: white;
 	font-family: arial;
 	text-align: center;
+	line-height: 100%;
+}
+
+footer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
 }
 	
 a{
@@ -29,4 +38,16 @@ a:hover{
 
 .icon:hover{
 	color: white;
+}
+
+.worktext{
+	float: right;
+	text-align: left;
+	width: 70%;
+}
+
+.workimg{
+	float: left;
+	text-align: center;
+	width: 30%;
 }
