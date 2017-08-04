@@ -3,6 +3,7 @@ body{
 	font-family: arial;
 	background-image: url("./images/wallpaper.jpg");
 	margin: 100px;
+	text-align: left;
 }
 
 a{
